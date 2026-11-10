@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lab13AnimacionesTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Ejercicio2(Modifier.padding(innerPadding))
+                    Ejercicio3(Modifier.padding(innerPadding))
                 }
             }
         }
